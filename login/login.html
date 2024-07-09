@@ -1,0 +1,34 @@
+<!-- Mejorar la funcion de eliminar usuarios preguntando si esta seguro y agregando opcion para deshacer los cambios. -->
+<!-- Agregar la funcionalidad de editar usuarios. -->
+<!-- Agregar la funcionalidad de cerrar sesion en el home. -->
+<!-- Estandarizar los estilos entre las paginas. -->
+<!-- Crear un home serio.-->
+<!-- Cambiar la disposicion de los botones en la pagina admin.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Bienvenido!</h1>
+    <div class="login_container">
+        <form class="login_form">
+            <h2>Iniciar Sesión</h2>
+            <label for="username">Usuario</label>
+            <input type="text" id="username" class="input_field" placeholder="">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" class="input_field" placeholder="">
+            <button type="submit" class="button" id="submit">Ingresar</button>
+            <p>¿No tienes cuenta? <a href="register.html" id="register">Regístrate</a></p>
+        </form>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
