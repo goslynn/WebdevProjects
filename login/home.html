@@ -1,36 +1,21 @@
-<!-- HTML -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Video a Pantalla Completa</title>
-<style>
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden; 
-  }
-  video {
-    min-width: 100%; 
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: fixed; 
-    /* Centra el video */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
 </head>
 <body>
-
-<video autoplay loop >
-  <source src="vids/RickRoll.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento de video.
-</video>
-
+  <header>
+    <nav>
+      <div class="image_menu">
+        <img src="img/default_pfp.png" id="profile_pic">
+        <a id="profile" href="profile.html">Mi Perfil</a>
+        <a id="logout" href="login.html">Cerrar Sesión</a>
+      </div>
+    </nav>
+  </header>
+  <h1>Hola Mundo!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quod delectus est nemo mollitia ad illo, enim tempora nostrum exercitationem dolor ratione esse quam distinctio, dolores cum. Repellat, tempora dolorem.</p>
 </body>
 </html>

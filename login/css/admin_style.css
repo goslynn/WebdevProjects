@@ -25,14 +25,13 @@ ul {
     padding: 0;
 }
 
-button{
-    font-weight: 500;
-    text-align: center;
+table {
+    width: 80%;
 }
 
 .list_singleuser {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
@@ -41,71 +40,36 @@ button{
 }
 
 .table_element_key{
-    width: 40%;
+    width: 50%;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    width: max-content;
+.table_element_value{
+    width: 50%;
 }
 
-.dropbtn {
-    align-self: flex-end;
-    padding: 10px 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    min-width: 100%;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 2;
+.table_element_value input{
+    all: unset;    
 }
 
-.dropdown-content{
-    display: none;
-    position: absolute;
-    top:80%;
-    background-color: #45a049;
-    border-radius: 5px;
-    min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 5px 0;
-}
-
-.dropdown-content button{
-    color: white;
-    background-color: #45a049;
-    padding: 0.4rem 0;
-    text-decoration: none;
-    display: block;
-    min-width: 100%;
-    box-sizing: border-box;
-    flex: 1 1 auto;
-    border: none;
-    transition: .2s;
-}
-
-.dropdown-content button:hover {
-    background-color: #3d8f41;
-    font-weight: 700;
-    cursor: pointer;
-}
-.dropdown-content #delete:hover {
-    color: #f44336;
-}
-.dropbtn:hover {
-    background-color: #45a049;
-}
-
-.show {
+.buttons_set{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    width: 20%;
+    min-height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons_set button{
+    padding: 0;
+    font-weight: 500;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 a {
@@ -119,3 +83,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.icon_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+  
