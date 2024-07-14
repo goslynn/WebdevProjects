@@ -103,6 +103,5 @@ a {
 .input_field:focus{
     outline: none;
     border: 1px solid #4CAF50;
-    caret-color: transparent;
 }
 
