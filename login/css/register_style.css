@@ -64,6 +64,17 @@ a {
     font-weight: 400;
 }
 
+.password_container{
+    align-self: center;
+    width: 70%;
+    position: relative;
+    margin: 5px 0;
+}
+
+.password_field{
+    width: 100% !important; 
+}
+
 .input_field{
     align-self: center;
     width: 70%;
@@ -75,7 +86,27 @@ a {
     box-sizing: border-box;
     background-color: #e8e8e8;
     font-weight: 300;
-    margin: 5px 0;
+}
+
+.showPassword{
+    display: none;
+}
+
+.showPassword.show{
+    display: block;
+    all: unset;
+    height: 90%;
+    width: min-content;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.showPassword img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    object-position: center;
 }
 
 .button{
